@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "title": "Web programming",
+            "author": "Smith",
+            "body": "This is about Web programming and all it entails. A great career opportunity for anyone intending to go for it. I'd recommend it for everyone interested.",
+            "id": "1" 
+        },
+        {
+            "title": "DevOps",
+            "author": "Sam",
+            "body": "This is about DevOps learning and all it entails. A great career opportunity for anyone intending to go for it. I'd recommend it for everyone interested.",
+            "id": "2" 
+        },
+        {
+            "title": "Cyber Security",
+            "author": "Jean",
+            "body": "This is about cyber security and all it entails. A great career opportunity for anyone intending to go for it. I'd recommend it for everyone interested.",
+            "id": "3" 
+        },
+        {
+            "title": "Ethical hacking",
+            "author": "Billy",
+            "body": "This is Ethical hacking and all it entails. A great career opportunity for anyone intending to go for it. I'd recommend it for everyone interested.",
+            "id": "4" 
+        }
+    ]
+}
