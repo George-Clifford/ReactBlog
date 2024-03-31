@@ -1,31 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import BlogList from './BlogList';
-
-const Blog = () => {
-  const [blogs, setBlogs] = useState(null);
-  
-
-    useEffect(() => {
-        axios.get('http://localhost:4000/blogs')
-        .then(res =>{setBlogs(res.data)});
-    })
-
-
-  
-
-
+import UseFetch from "./UseFetch";
+import BlogList from "./BlogList";
+const Home = () => {
+    const {data} = UseFetch('http://localhost:4000/blogs');
     return (
-        <div>
-          {
-            blogs && <BlogList blogs = {blogs}/>
-          }
-          
-        
-        </div>
-      
-    
-  );
+        <div className="home">
+
+            {data && <BlogList blogs= {data} title="All Blogs" /> }
+
+    </div>
+);
 }
 
-export default Blog;
+
+export default Home;
